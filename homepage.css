@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(175, 3, 255);
+}
+#a{
+    background-color: rgb(248, 120, 214);
+    color: rgb(0, 4, 67);
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+}
+#b{
+    background-color: blueviolet;
+    padding: 6px;
+    border-radius: 2px;
+    border-color: black;
+    border-style: double;
+}
+.c{
+    display: inline;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(51, 17, 17);
+}
+.c:hover{
+    background-color: beige;
+}
+.d{
+    color: rgb(250, 230, 152);
+}
+.d:hover{
+    color: rgb(34, 59, 150);
+}
+#e{
+    font-size:20px;
+    font-weight: bolder;
+    color: rgb(16, 8, 2);
+    background-color: rgb(160, 79, 21);
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: rgb(33, 37, 95);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3.5px;
+}
+#f{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0;
+}
+#g{
+    border-color: rgb(77, 38, 10);
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+    background-color: chocolate;
+    margin-bottom: 10px;
+}
+.box{
+    border-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+    width: 25%;
+    height: 320 px;
+}
+#logo{
+    width: 90%;
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 5px;
+}
+#name{
+    width: 90%;
+    height: 210px;
+    border-radius: 7px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+}
+#song{
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 5px;
+}
