@@ -15,6 +15,7 @@ body{
     border-width: 5px;
 }
 table{
-    border: 5px;
-    font-size: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
