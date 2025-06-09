@@ -24,4 +24,5 @@ table,td,tr,th{
     padding-top: 10px;
     padding-bottom: 10px;
     border-collapse: collapse;
+    text-align: left;
 }
