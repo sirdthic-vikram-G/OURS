@@ -30,6 +30,8 @@ body{
     border-color: black;
     border-style: solid;
     background-color: rgb(51, 17, 17);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .c:hover{
     background-color: beige;
