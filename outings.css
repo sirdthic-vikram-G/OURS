@@ -13,4 +13,31 @@ body{
     border-color: black;
     border-style: solid;
     border-width: 5px;
+    text-align: center;
+}
+table,td,tr,th{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px;
+    font-family: cursive;
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+td,th{
+    width: 10%;
+    padding-top: 5px;
+}
+#b{
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
 }
