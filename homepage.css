@@ -120,4 +120,7 @@ body{
     border-color: black;
     border-width: 5px;
     border-style: solid;
+    font-size: 20px;
+    background-color: rgb(10, 10, 94);
+    color: white;
 }
