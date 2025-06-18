@@ -92,7 +92,7 @@ body{
 }
 #name{
     width: 90%;
-    height: 210px;
+    height: 230px;
     border-radius: 7px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
@@ -129,7 +129,7 @@ body{
     margin-right: 25%;
     margin-left: 25%;
 }
-#do:hover{
+#outing:hover{
     background-color: rgb(117, 117, 165);
     color: black;
 }
