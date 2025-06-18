@@ -1,6 +1,10 @@
 body{
     background-color: rgb(175, 3, 255);
 }
+hr{
+    height: 5px;
+    background-color: black;
+}
 #a{
     background-color: rgb(248, 120, 214);
     color: rgb(0, 4, 67);
