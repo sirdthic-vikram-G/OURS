@@ -58,5 +58,26 @@
         </center>
     </div>
     <hr>
+<!-- Pop-Up -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2>Oyee Happy Birthday My Love</h2>
+      <p>Idhu Unaku Pudikum Nu Neanikuren Pudikalana Kalaikadha Okay</p>
+    </div>
+  </div>
+
+    <script>
+    // Show popup after page loads
+    window.onload = function() {
+      document.getElementById("popup").style.display = "flex";
+    };
+
+    // Function to close the popup
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+<!--Popup ends-->
 </body>
 </html>

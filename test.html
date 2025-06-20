@@ -1,26 +1,72 @@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Yellowtail&display=swap" rel="stylesheet">
+
 <style>
-    div{
-        background-color: greenyellow;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    .pop {
+    font-size: 30px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
     }
-    h1{
-        background-color: black;
-        color: white;
-        margin: 5px;
-        padding: 5px;
+
+    /* Overlay */
+    .popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(253, 37, 37, 0.418);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    /* Pop-Up Box */
+    .popup-content {
+      background: rgb(250, 140, 140);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      position: relative;
+      animation: fadeIn 0.3s ease;
+    }
+
+    /* Close Button */
+    .close-btn {
+      position: absolute;
+      top: 10px; right: 15px;
+      font-size: 20px;
+      color: #888;
+      cursor: pointer;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.9);}
+      to {opacity: 1; transform: scale(1);}
     }
 </style>
 
+  <!-- Pop-Up -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2 class="pop">Oyee Happy Birthday My Love</h2>
+      <p class="pop">Idhu Unaku Pudikum Nu Neanikuren Pudikalana Kalaikadha Okay</p>
+    </div>
+  </div>
 
+    <script>
+    // Show popup after page loads
+    window.onload = function() {
+      document.getElementById("popup").style.display = "flex";
+    };
 
-
-<div>
-    <h1>one</h1>
-    <h1>two</h1>
-    <h1>three</h1>
-    <h1>four</h1>
-    <h1>five</h1>
-    <h1>six</h1>
-</div>
+    // Function to close the popup
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
