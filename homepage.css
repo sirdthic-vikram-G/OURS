@@ -140,7 +140,13 @@ hr{
 .bold{
     font-weight: bold;
 }
-    .pop {
+.popi {
+    font-size: 30px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: bold;
+    }
+.pop {
     font-size: 30px;
     font-family: "Yellowtail", cursive;
     font-weight: 400;
@@ -148,11 +154,11 @@ hr{
     }
 
     /* Overlay */
-    .popup {
+.popup {
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: rgba(253, 37, 37, 0.889);
+      background: rgb(253, 37, 37);
       display: none;
       justify-content: center;
       align-items: center;
@@ -160,7 +166,7 @@ hr{
     }
 
     /* Pop-Up Box */
-    .popup-content {
+.popup-content {
       background: rgb(250, 140, 140);
       padding: 30px;
       border-radius: 10px;
@@ -172,7 +178,7 @@ hr{
     }
 
     /* Close Button */
-    .close-btn {
+.close-btn {
       position: absolute;
       top: 10px; right: 15px;
       font-size: 20px;
@@ -181,7 +187,7 @@ hr{
     }
 
     /* Animation */
-    @keyframes fadeIn {
+@keyframes fadeIn {
       from {opacity: 0; transform: scale(0.9);}
       to {opacity: 1; transform: scale(1);}
     }
