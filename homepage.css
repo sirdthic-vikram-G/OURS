@@ -174,7 +174,7 @@ hr{
       max-width: 300px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
       position: relative;
-      animation: fadeIn 0.3s ease;
+      animation: fadeIn 0s ease;
     }
 
     /* Close Button */
