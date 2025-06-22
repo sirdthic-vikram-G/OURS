@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(252, 167, 107);
+}
+#a{
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: chocolate;
+}
+#b{
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+td{
+    font-size: 25px;
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 10px;
+}
+#c{
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  background-color: chocolate;
+}
