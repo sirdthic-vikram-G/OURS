@@ -198,3 +198,24 @@ hr{
       from {opacity: 0; transform: scale(0.9);}
       to {opacity: 1; transform: scale(1);}
     }
+#bday{
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+#bd{
+    background-color: chocolate;
+    border: 3px solid black;
+    padding: 5px;
+    transition: 0.5s;
+}
+#bd:hover{
+    background-color: rgb(248, 128, 128);
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    transition: 0.5s
+    ;
+}

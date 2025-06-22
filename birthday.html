@@ -9,6 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Pop-Up -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2 class="popi">HAPPY BIRTHDAY PONDATI💖💕</h2>
+      <p class="pop">Simple ahh dhan irukum okay but konjam adjust paniko plss🤌</p>
+    </div>
+  </div>
+
+    <script>
+    // Show popup after page loads
+    window.onload = function() {
+      document.getElementById("popup").style.display = "flex";
+    };
+
+    // Function to close the popup
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+<!--Popup ends-->
+
     <h1 id="a">🎂HAPPY BIRTHDAY MUU🎂</h1>
     <p id="b">Happy Birthday My Wife💖💕</p>
     <center>
