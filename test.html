@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Bounce Box</title>
-  <style>
-    .box {
-      width: 100px;
-      height: 100px;
-      background: tomato;
-      animation: bounce 1s ease infinite alternate;
-      margin: 100px auto;
-    }
-
-    @keyframes bounce {
-      from {
-        transform: translateY(0);
-      }
-      to {
-        transform: translateY(-50px);
-      }
-    }
-  </style>
+  <title>One-Time Popup</title>
 </head>
-<body>
-  <div class="box"></div>
-</body>
+  <style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #ff0008, #f8663d, #fcb6a3, #e223e2);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  </style>
+
 </html>

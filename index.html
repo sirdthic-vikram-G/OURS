@@ -18,16 +18,18 @@
     </div>
   </div>
 
-    <script>
-    // Show popup after page loads
-    window.onload = function() {
+  <script>
+  window.onload = function() {
+    // Check if popup has already been shown
+    if (!localStorage.getItem("birthdayPopupShown")) {
       document.getElementById("popup").style.display = "flex";
-    };
-
-    // Function to close the popup
-    function closePopup() {
-      document.getElementById("popup").style.display = "none";
     }
+  }
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+    // Mark popup as shown
+    localStorage.setItem("birthdayPopupShown", "true");
+  }
   </script>
 <!--Popup ends-->
 
