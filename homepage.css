@@ -1,5 +1,23 @@
 body{
-    background-color: rgb(175, 3, 255);
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, rgb(255, 0, 255), rgb(145, 7, 145), rgb(251, 182, 163), rgb(255, 192, 255));
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 hr{
     height: 5px;
@@ -19,7 +37,7 @@ hr{
     border-radius: 30px;
 }
 #b{
-    background-color: blueviolet;
+    background-color: rgb(165, 78, 247);
     padding: 6px;
     border-radius: 2px;
     border-color: black;
