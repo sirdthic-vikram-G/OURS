@@ -25,15 +25,48 @@ td{
     text-align: left;
     padding-top: 10px;
 }
-#c{
-  font-family: "Edu NSW ACT Hand Pre", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  text-align: center;
-  background-color: chocolate;
-}
+    .wht {
+      font-family: sans-serif;
+      background: #f8cfcf;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 20px;
+      margin-left: 27%;
+      margin-right: 27%;
+    }
+
+    .chat {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .msg {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 10px;
+      border-radius: 20px;
+      font-size: 30px;
+      max-width: 70%;
+    }
+
+    .sent {
+      background-color: rgb(252, 140, 60);
+      align-self: flex-end;
+      margin-left: auto;
+      text-align: left;
+    }
+
+    .received {
+      background-color: rgb(255, 183, 132);
+      border: 1px solid #ccc;
+      align-self: flex-start;
+      text-align: left;
+    }
+
+    .bubble {
+      display: flex;
+      flex-direction: column;
+    }
 .popi {
     font-size: 30px;
     font-family: "Yellowtail", cursive;

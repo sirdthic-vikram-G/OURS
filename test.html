@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>One-Time Popup</title>
-</head>
+  <meta charset="UTF-8" />
+  <title>Message Bubbles</title>
   <style>
-body {
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(-45deg, #ff0008, #f8663d, #fcb6a3, #e223e2);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+    .wht {
+      font-family: sans-serif;
+      background: #c22626;
+      padding: 20px;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
 
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+    .chat {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .msg {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 10px;
+      border-radius: 20px;
+      font-size: 30px;
+      max-width: 70%;
+    }
+
+    .sent {
+      background-color: #dcf8c6;
+      align-self: flex-end;
+      margin-left: auto;
+    }
+
+    .received {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      align-self: flex-start;
+    }
+
+    .bubble {
+      display: flex;
+      flex-direction: column;
+    }
   </style>
-
+</head>
+<body>
+  <div class="wht">
+  <div class="chat bubble">
+    <div class="msg sent">Oyee muu</div>
+    <div class="msg received">I’m great—loving these bubbles!</div>
+    <div class="msg sent">Want to add animations next?</div>
+  </div>
+  </div>
+</body>
 </html>
