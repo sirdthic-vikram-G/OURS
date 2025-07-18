@@ -1,3 +1,6 @@
+body{
+  background-color: #888;
+}
 .popi {
     font-size: 30px;
     font-family: "Yellowtail", cursive;
@@ -15,7 +18,7 @@
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: chocolate;
+      background: rgb(75, 30, 210);
       display: none;
       justify-content: center;
       align-items: center;
@@ -24,7 +27,7 @@
 
     /* Pop-Up Box */
 .popup-content {
-      background:rgb(250, 149, 77);
+      background:rgb(83, 77, 250);
       padding: 30px;
       border-radius: 10px;
       text-align: center;
@@ -39,12 +42,39 @@
       position: absolute;
       top: 10px; right: 15px;
       font-size: 20px;
-      color: #888;
+      padding-left: 5px;padding-right: 5px;
+      color: #000000;
+      border: 2px black solid;
+      border-radius: 50%;
       cursor: pointer;
+      transition: 0.5s;
     }
+.close-btn:hover{
+  background-color: white;
+  padding-left: 7px;padding-right: 7px;
+  padding-top: 2px;padding-bottom: 2px;
+  transition: 0.5s;
+}
 
     /* Animation */
 @keyframes fadeIn {
       from {opacity: 0; transform: scale(0.9);}
       to {opacity: 1; transform: scale(1);}
     }
+#slide{
+  border: 5px black solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+#ab{
+  background-color: bisque;
+  border: 5px brown solid;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.pages{
+  border: 5px rgb(82, 82, 82) solid;
+  border-radius: 5px;
+}
